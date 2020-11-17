@@ -22,6 +22,7 @@ public class Activity_Winner_Pop extends AppCompatActivity {
         initView();
 
 
+
         if (savedInstanceState == null) {
             Bundle extras = getIntent().getExtras();
             if (extras == null) {
