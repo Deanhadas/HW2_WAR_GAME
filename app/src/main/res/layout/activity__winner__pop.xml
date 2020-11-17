@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Winner_Pop">
+
+
+
+    <TextView
+        android:id="@+id/activity_winner_pop_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Winner of War of the Warriors!"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textColor="#3B65FF"
+        />
+    <TextView
+        android:id="@+id/activity_winner_pop_LBL_winner_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_winner_pop_LBL_title"
+        android:text="NULL"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textColor="#FF3BF5"
+
+        />
+
+    <ImageView
+        android:id="@+id/activity_winner_pop_IMG_winner_icon"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_below="@id/activity_winner_pop_LBL_winner_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/winner"
+        />
+
+
+    <Button
+        android:id="@+id/activity_winner_pop_BTN_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"
+        ></Button>
+
+</RelativeLayout>
