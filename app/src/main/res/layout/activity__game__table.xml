@@ -11,8 +11,7 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/space_bg"
-        ></ImageView>
+        android:src="@drawable/space_bg" />
 
     <LinearLayout
         android:id="@+id/linearLayoutBIG"
@@ -36,7 +35,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
                 android:layout_weight="1"
-                android:text="0"
+                android:text="@string/start_score"
                 android:textColor="@color/purple_200"
                 android:textSize="80sp"
                 >
@@ -45,13 +44,14 @@
 
             <ImageView
                 android:id="@+id/activity_game_table_IMG_icon_left"
-                android:layout_width="80sp"
-                android:layout_height="80sp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/chip">
+                android:src="@drawable/chip10"
+                />
 
-            </ImageView>
+
 
             <TextView
                 android:id="@+id/activity_game_table_LBL_player_left"
@@ -61,7 +61,7 @@
                 android:layout_weight="1"
                 android:text="Player1"
                 android:textColor="@color/purple_200"
-                android:textSize="20sp"></TextView>
+                android:textSize="20sp" />
 
 
         </LinearLayout>
@@ -75,8 +75,8 @@
 
             <ImageView
                 android:id="@+id/activity_game_table_IMG_card_left"
-                android:layout_width="200sp"
-                android:layout_height="80sp"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
 
@@ -96,8 +96,8 @@
 
             <ImageView
                 android:id="@+id/activity_game_table_IMG_card_right"
-                android:layout_width="200sp"
-                android:layout_height="80sp"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
 
@@ -132,11 +132,11 @@
 
             <ImageView
                 android:id="@+id/activity_game_table_IMG_icon_right"
-                android:layout_width="80sp"
-                android:layout_height="80sp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/chip2">
+                android:src="@drawable/chip50">
 
             </ImageView>
 
@@ -170,6 +170,6 @@
         android:layout_centerHorizontal="true"
         android:text="GO!"
         android:textAllCaps="false"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
 </RelativeLayout>

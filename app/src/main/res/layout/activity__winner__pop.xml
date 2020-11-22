@@ -16,7 +16,7 @@
         android:layout_centerInParent="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="30dp"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColor="#3B65FF"
         />
     <TextView
@@ -27,15 +27,15 @@
         android:text="NULL"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColor="#FF3BF5"
 
         />
 
     <ImageView
         android:id="@+id/activity_winner_pop_IMG_winner_icon"
-        android:layout_width="80sp"
-        android:layout_height="80sp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_below="@id/activity_winner_pop_LBL_winner_name"
         android:layout_centerInParent="true"
         android:layout_marginTop="10dp"
@@ -51,7 +51,7 @@
         android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="20dp"
-        android:textSize="30dp"
-        ></Button>
+        android:textSize="30sp"
+        />
 
 </RelativeLayout>
