@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/space_bg" />
+        android:src="@drawable/space_bgbg" />
 
     <LinearLayout
         android:id="@+id/linearLayoutBIG"
