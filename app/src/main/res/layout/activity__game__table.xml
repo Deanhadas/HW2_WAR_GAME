@@ -48,7 +48,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/chip10"
+                android:src="@drawable/chip5"
                 />
 
 
