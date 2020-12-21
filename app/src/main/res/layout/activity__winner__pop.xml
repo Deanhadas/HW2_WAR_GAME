@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Winner_Pop">
+    tools:context=".Activitys.Activity_Winner_Pop">
 
 
 
@@ -16,7 +16,7 @@
         android:layout_centerInParent="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="30dp"
-        android:textSize="40sp"
+        android:textSize="20sp"
         android:textColor="#3B65FF"
         />
     <TextView
@@ -27,7 +27,7 @@
         android:text="NULL"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
-        android:textSize="40sp"
+        android:textSize="20sp"
         android:textColor="#FF3BF5"
 
         />
@@ -38,20 +38,35 @@
         android:layout_height="80dp"
         android:layout_below="@id/activity_winner_pop_LBL_winner_name"
         android:layout_centerInParent="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:src="@drawable/winner_end"
         />
 
 
     <Button
+        android:id="@+id/activity_winner_pop_BTN_top10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toRightOf="@+id/activity_winner_pop_IMG_winner_icon"
+        android:text="TOP10"
+        android:layout_centerInParent="true"
+
+        android:textSize="20sp"
+        />
+
+    <Button
         android:id="@+id/activity_winner_pop_BTN_exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_toLeftOf="@+id/activity_winner_pop_IMG_winner_icon"
         android:text="exit"
         android:layout_centerInParent="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
-        android:textSize="30sp"
+
+
+        android:textSize="20sp"
         />
+
 
 </RelativeLayout>

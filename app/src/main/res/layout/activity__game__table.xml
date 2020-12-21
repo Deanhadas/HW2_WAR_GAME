@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Game_Table">
+    tools:context=".Activitys.Activity_Game_Table">
 
     <ImageView
         android:layout_width="match_parent"
@@ -12,6 +12,20 @@
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
         android:src="@drawable/space_bgbg" />
+
+    <ProgressBar
+        android:id="@+id/activity_game_table_PBAR"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="26"
+        android:max="26"/>
+
+
+
 
     <LinearLayout
         android:id="@+id/linearLayoutBIG"
@@ -166,10 +180,28 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:backgroundTint="#FF0000"
-       android:layout_alignParentBottom="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="GO!"
         android:textAllCaps="false"
         android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/activity_game_table_LBL_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#CD0202"
+        android:textSize="30sp">
+
+    </TextView
+        >
+
 
 </RelativeLayout>
